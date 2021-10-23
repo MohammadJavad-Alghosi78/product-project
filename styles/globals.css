@@ -1,3 +1,9 @@
+@font-face {
+  font-family: mainFont;
+  src: url("../public/fonts/HappyHalloween.otf") format("opentype"),
+    url("../public/fonts/HappyHalloween.ttf") format("opentype");
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +19,5 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: mainFont;
 }
