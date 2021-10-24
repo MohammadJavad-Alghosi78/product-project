@@ -7,5 +7,5 @@ export const setResponseInterceptor = (response) => {
 };
 
 export const setErrorInterceptor = (error) => {
-  Promise.reject();
+  Promise.reject(error);
 };
