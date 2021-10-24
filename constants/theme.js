@@ -5,6 +5,7 @@ export const colors = {
   red: "#FF2929",
   yellow: "#ECEC13",
   white: "#ffffff",
+  red: "red",
 };
 
 export const boxShadow = {
