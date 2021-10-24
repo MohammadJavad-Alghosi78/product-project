@@ -1,10 +1,11 @@
 // * node_modules
+import React from "react";
 import Head from "next/head";
 
 // * Components
-import Button from "microComponents/Button";
 import Template from "components/common/Template";
-import React from "react";
+import Button from "microComponents/Button";
+import Input from "microComponents/TextField";
 
 // * JSX
 const Home = () => {
@@ -16,8 +17,8 @@ const Home = () => {
       </Head>
       <Template>
         <h1>PRODUCTS PROJECT</h1>
-        <Button variant="primary">PRIMARY</Button>
-        <Button variant="outline">OUTLINE</Button>
+        <Input type="text" placeholder="username" />
+        <Button variant="primary">OUTLINE</Button>
       </Template>
     </React.Fragment>
   );
