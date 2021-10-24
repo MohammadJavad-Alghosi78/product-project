@@ -1,7 +1,10 @@
-// node_modules
+// * node_modules
 import Head from "next/head";
 
-// JSX
+// * Components
+import Button from "microComponents/Button";
+
+// * JSX
 const Home = () => {
   return (
     <div>
@@ -11,6 +14,8 @@ const Home = () => {
       </Head>
       <main>
         <h1>PRODUCTS PROJECT</h1>
+        <Button variant="primary">PRIMARY</Button>
+        <Button variant="outline">OUTLINE</Button>
       </main>
     </div>
   );

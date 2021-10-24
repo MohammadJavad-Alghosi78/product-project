@@ -9,7 +9,8 @@
       "@microComponents/": ["microComponents/*"],
       "@public/": ["public/*"],
       "@styles/": ["styles/*"],
-      "@utils/": ["utils/*"]
+      "@utils/": ["utils/*"],
+      "@hooks/": ["hooks/*"]
     }
   }
 }
