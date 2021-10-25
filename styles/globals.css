@@ -12,8 +12,9 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: black;
-  color: #ecec13;
+  background-color: #231a62;
+  color: rgb(255, 255, 255);
+  min-height: 100vh;
 }
 
 a {

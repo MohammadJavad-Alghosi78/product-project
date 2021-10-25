@@ -8,11 +8,11 @@ import Footer from "components/common/Footer";
 
 const Template = ({ children }) => {
   return (
-    <React.Fragment>
+    <Container>
       <Header />
-      <Container>{children}</Container>
+      <main>{children}</main>
       <Footer />
-    </React.Fragment>
+    </Container>
   );
 };
 
