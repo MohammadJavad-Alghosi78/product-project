@@ -47,6 +47,7 @@ const Header = () => {
   }, [isSidebarOpen]);
 
   if (isMobile) {
+    console.log("============");
     return (
       <HeaderWrapper>
         <AiOutlineMenu onClick={handleShowSidebar} />
